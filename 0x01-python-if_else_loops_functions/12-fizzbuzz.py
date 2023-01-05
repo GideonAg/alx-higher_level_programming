@@ -2,10 +2,10 @@
 def fizzbuzz():
     for a in range(101):
         if a % 3 == 0 and a % 5 == 0:
-            print('FizzBuzz')
+            print('FizzBuzz', end='')
         elif a % 3 == 0:
-            print('Fizz')
+            print('Fizz', end='')
         elif a % 5 == 0:
-            print('Buzz')
+            print('Buzz', end='')
         else:
-            print(a)
+            print(a, end='')
